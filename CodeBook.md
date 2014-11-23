@@ -50,6 +50,8 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyGyroMag
 - fBodyGyroJerkMag
 
+Note that the features are normalized and bounded within [-1,1] and thus do not have units.
+
 The set of variables that were estimated from these signals are listed below, and are denoted as suffixes:
 
 - mean(): Mean value
