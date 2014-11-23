@@ -16,7 +16,7 @@ Full credit for the experiment and analysis on the data goes to the original aut
 
 **Background of Course Project**
 
-The scope of the Course Project is to create an R script "run_analysis.R" which takes the raw data files as inputs and outputs a "tidy_dataset.txt" file. Before running the script, the following files must already be unzipped in the working directory:
+The scope of the Course Project is to create an R script "run_analysis.R" which takes the raw data files as inputs and outputs a "tidy_dataset.txt" file (with a header). Before running the script, the following files must already be unzipped in the working directory:
 
 1. X_train.txt
 2. Y_train.txt
@@ -33,5 +33,5 @@ The following files are listed in this repository:
 
 1. README.md - the current readme R markdown file
 2. run_analysis.R - the R script which creates a tidy dataset from the UCI HAR raw data
-3. tidy_dataset.txt - the tidy dataset in text format
+3. tidy_dataset.txt - the tidy dataset in text format. Note that when using read.table() to read this text file into a dataframe, the parameter header=T should be used. 
 4. CodeBook.md - the CodeBook explaining each variable within the tidy dataset
