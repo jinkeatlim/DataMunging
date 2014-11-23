@@ -33,5 +33,5 @@ The following files are listed in this repository:
 
 1. README.md - the current readme R markdown file
 2. run_analysis.R - the R script which creates a tidy dataset from the UCI HAR raw data
-3. tidy_dataset.txt - the tidy dataset in text format. Note that when using read.table() to read this text file into a dataframe, the parameter header=T should be used. 
+3. tidy_dataset.txt - the tidy dataset in text format. *Note that when using read.table() to read this text file into a dataframe, the parameter header=T should be used.*
 4. CodeBook.md - the CodeBook explaining each variable within the tidy dataset
