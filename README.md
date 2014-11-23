@@ -1,7 +1,8 @@
 README file for Getting and Cleaning Data Course Project
 ===========
-author: "Jin-Keat Lim"
-date: "Saturday, November 22, 2014"
+author: Jin-Keat Lim
+
+date: Saturday, November 22, 2014
 
 **Introduction**
 
