@@ -27,6 +27,16 @@ The scope of the Course Project is to create an R script "run_analysis.R" which 
 7. subject_test.txt
 8. activity_labels.txt
 
+**Methodology of script**
+
+To be more detailed, the provided script performs the following operations on the aforementioned files:
+
+1. Merges the training and the test sets to create one data set
+2. Extracts only the measurements on the mean and standard deviation for each measurement
+3. Uses descriptive activity names to name the activities in the data set from *activity_labels.txt*
+4. Appropriately labels the data set with descriptive variable names, partially from *features.txt*
+5. From the data set in step 4, creates a second, independent tidy data set *(tidy_dataset.txt)* with the average of each variable for each activity and each subject
+
 **Files listed in repository**
 
 The following files are listed in this repository:
